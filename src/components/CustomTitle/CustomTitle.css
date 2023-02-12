@@ -1,0 +1,14 @@
+.header {
+  text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.5rem;
+  text-shadow: 0.1rem 0.1rem 2rem #000000;
+}
+
+@media (max-width: 599px) {
+  .header {
+    font-size: 2rem;
+  }
+}

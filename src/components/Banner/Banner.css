@@ -1,0 +1,16 @@
+.banner {
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.chess {
+  background-image: linear-gradient(
+      to right,
+      #4590e6bd,
+      #1857aaca,
+      #002658ca
+    ),
+    url('../../assets/images/chess.jpg');
+}

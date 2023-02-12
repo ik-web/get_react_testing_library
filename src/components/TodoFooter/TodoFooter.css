@@ -1,0 +1,10 @@
+.todoFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoFooter p {
+  font-weight: 600;
+  color: grey;
+}
