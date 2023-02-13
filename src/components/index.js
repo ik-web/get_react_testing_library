@@ -10,3 +10,4 @@ export * from './FollowersContent/FollowersContent';
 export * from './FollowersList/FollowersList';
 export * from './Follower/Follower';
 export * from './Loader/Loader';
+export * from './ErrorMessage/ErrorMessage';

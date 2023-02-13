@@ -2,27 +2,34 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './FollowersList.css';
-import { fetchFollowers } from './utils';
-import { Follower, Loader } from 'components';
+import { useFetch } from 'hook/useFetch';
+import { ErrorMessage, Follower, Loader } from 'components';
+
+const fetchParams = {
+  initialData: [],
+  url: 'https://randomuser.me/api/?results=5',
+  options: null
+}
 
 export const FollowersList = () => {
-  const [followers, setFollowers] = React.useState([]);
-
-  React.useEffect(() => {
-    fetchFollowers(setFollowers);
-  }, []);
+  const {
+    data: followers,
+    loading,
+    error
+  } = useFetch(fetchParams);
 
   return (
     <div className="followersList">
-      {!!followers.length
-        ? <ul>
-            {followers.map((follower) => (
-              <li key={follower.email}>
-                <Follower follower={follower} />
-              </li>
-            ))}
-          </ul>
-        : <Loader />
+      {loading && <Loader />}
+      {error && <ErrorMessage message={error} />}
+      {followers.length > 0 &&
+        <ul>
+          {followers.map((follower) => (
+            <li key={follower.email}>
+              <Follower follower={follower} />
+            </li>
+          ))}
+        </ul>
       }
 
       <div className="followersList__footer">
