@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/get_react_testing_library/static/css/main.b825e8cb.css",
-    "main.js": "/get_react_testing_library/static/js/main.725d43ee.js",
+    "main.css": "/get_react_testing_library/static/css/main.2369fe8e.css",
+    "main.js": "/get_react_testing_library/static/js/main.135678c4.js",
     "static/js/787.28cb0dcd.chunk.js": "/get_react_testing_library/static/js/787.28cb0dcd.chunk.js",
     "static/media/chess.jpg": "/get_react_testing_library/static/media/chess.63593b4f535ac7f82928.jpg",
     "static/media/loader.svg": "/get_react_testing_library/static/media/loader.46d27bbd23deca469ee227903edbeceb.svg",
     "index.html": "/get_react_testing_library/index.html",
-    "main.b825e8cb.css.map": "/get_react_testing_library/static/css/main.b825e8cb.css.map",
-    "main.725d43ee.js.map": "/get_react_testing_library/static/js/main.725d43ee.js.map",
+    "main.2369fe8e.css.map": "/get_react_testing_library/static/css/main.2369fe8e.css.map",
+    "main.135678c4.js.map": "/get_react_testing_library/static/js/main.135678c4.js.map",
     "787.28cb0dcd.chunk.js.map": "/get_react_testing_library/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b825e8cb.css",
-    "static/js/main.725d43ee.js"
+    "static/css/main.2369fe8e.css",
+    "static/js/main.135678c4.js"
   ]
 }
