@@ -1,0 +1,11 @@
+.todoItem {
+  border-bottom: 0.05rem solid rgba(0, 0, 0, 0.082);
+  padding: 1rem 0;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.todoItem_active {
+  text-decoration: line-through;
+  color: grey;
+}

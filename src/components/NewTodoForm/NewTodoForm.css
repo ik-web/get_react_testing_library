@@ -1,5 +1,6 @@
 .newTodoForm {
   display: flex;
+  gap: 1.5rem;
 
   background-color: white;
   margin-top: 2rem;
@@ -11,6 +12,7 @@
 }
 
 .newTodoForm__input {
+  width: 100%;
   border: none;
 }
 
